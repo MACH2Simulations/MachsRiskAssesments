@@ -1,0 +1,44 @@
+remote_theme: zendesk/jekyll-theme-zendesk-garden@main
+
+sidebar: 
+  - dotRP-Home
+  - label: Start Here
+    children:
+      - dotRP-Faq 
+      - dotRP-Apply
+  - label: Our Server
+    children:
+      - cut
+      - TH-Arch
+      - Known-Issues
+  - label: Lore
+    children: 
+      - dotRP-Lore
+  - label: Characters
+    children:
+      - Slater
+  - label: Places
+    children:
+      - dotRP-Shi
+  - label: Things
+    children:
+      - Kraken   
+  - label: Our Polices, Rules, SOPS
+    children:
+      - dotRP-ERS-Main
+      - dotRP-ERS-Flight
+      - dotRP-ERS-SAPD-COE      
+  - label: Our Docs
+    children:
+      - core
+  - label: Our Scripts
+    children:
+      - MachsVedning
+      - MACH-Raven-Functions
+      - Usable-Items
+  - label: New NOC
+    children:
+      - dotRP-Dev
+  - Feedback
+
+version: v0.5.0
